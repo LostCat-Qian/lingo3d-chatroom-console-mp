@@ -1,0 +1,1 @@
+<view class="container"><view class="title">推送最新公告</view><view class="tip">请输入公告标题：</view><input id="title-input" type="text" value="{{a}}" bindinput="{{b}}"/><view class="tip">请输入推送公告内容：</view><block wx:if="{{r0}}"><textarea id="content-input" name="" cols="30" rows="10" value="{{c}}" bindinput="{{d}}"></textarea></block><button bindtap="{{e}}">推送</button></view>

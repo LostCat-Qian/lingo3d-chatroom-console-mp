@@ -1,0 +1,79 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "用户数据",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/announcement/announcement",
+			"style": {
+				"navigationBarTitleText": "公告数据",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/publishAnnouncement/publishAnnouncement",
+			"style": {
+				"navigationBarTitleText": "发布公告",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/updateUserInfo/updateUserInfo",
+			"style": {
+				"navigationBarTitleText": "更新用户信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/changeMap/changeMap",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+	],
+	"tabBar": {
+		"borderStyle": "black",
+		"selectedColor": "#1296db",
+		"color": "#444444",
+		"position": "bottom",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/icons/user.png",
+			"selectedIconPath": "static/icons/user-fill.png",
+			"text": "用户管理"
+		}, {
+			"pagePath": "pages/announcement/announcement",
+			"iconPath": "static/icons/announcement.png",
+			"selectedIconPath": "static/icons/announcement-fill.png",
+			"text": "公告管理"
+		}, {
+			"pagePath": "pages/publishAnnouncement/publishAnnouncement",
+			"iconPath": "static/icons/publish.png",
+			"selectedIconPath": "static/icons/publish-fill.png",
+			"text": "发布公告"
+		}, {
+			"pagePath": "pages/changeMap/changeMap",
+			"iconPath": "static/icons/map.png",
+			"selectedIconPath": "static/icons/map-fill.png",
+			"text": "切换地图"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

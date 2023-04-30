@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/announcement/announcement",
+    "pages/publishAnnouncement/publishAnnouncement",
+    "pages/updateUserInfo/updateUserInfo",
+    "pages/changeMap/changeMap"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#1296db",
+    "color": "#444444",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/user.png",
+        "selectedIconPath": "static/icons/user-fill.png",
+        "text": "用户管理"
+      },
+      {
+        "pagePath": "pages/announcement/announcement",
+        "iconPath": "static/icons/announcement.png",
+        "selectedIconPath": "static/icons/announcement-fill.png",
+        "text": "公告管理"
+      },
+      {
+        "pagePath": "pages/publishAnnouncement/publishAnnouncement",
+        "iconPath": "static/icons/publish.png",
+        "selectedIconPath": "static/icons/publish-fill.png",
+        "text": "发布公告"
+      },
+      {
+        "pagePath": "pages/changeMap/changeMap",
+        "iconPath": "static/icons/map.png",
+        "selectedIconPath": "static/icons/map-fill.png",
+        "text": "切换地图"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
